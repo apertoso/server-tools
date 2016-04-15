@@ -38,6 +38,7 @@
     'depends': [
         'base',
         'web_calendar',
+        'calendar',
     ],
     'data': [
         'views/super_calendar_view.xml',
