@@ -192,7 +192,8 @@
         </record>
 
         <menuitem id="super_calendar_menu" name="Super Calendar"
-                  action="super_calendar_action"/>
+                  action="super_calendar_action"
+                  parent="calendar.mail_menu_calendar"/>
         <menuitem id="super_calendar_calendar" name="Calendar"
                   parent="super_calendar_menu" />
         <menuitem id="super_calendar_calendar_calendar" name="Calendar"
