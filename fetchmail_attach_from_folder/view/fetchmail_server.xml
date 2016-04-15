@@ -10,7 +10,7 @@
                     <field name="object_id" position="attributes">
                         <attribute name="attrs">{'required': [('type', '!=', 'imap')]}</attribute>
                     </field>
-                    <xpath expr="//page[@string='Server &amp; Login']/group/group[3]" position="after">
+                    <xpath expr="//page[1]/group/group[3]" position="after">
                         <group attrs="{'invisible': [('type','!=','imap')]}" string="Folders to monitor">
                             <field
                                 name="folder_ids"
@@ -43,7 +43,7 @@
                                             <field name="flag_nonmatching" />
                                             <field name="match_first" />
                                             <field name="msg_state" />
-                                            <field name="model_order" attrs="{'readonly': [('match_first','==',False)], 'required': [('match_first','==',True)]}" placeholder="name asc,type desc" />
+                                            <field name="model_order" placeholder="name asc,type desc" />
                                             <field name="domain" placeholder="[('state', '=', 'open')]" />
                                         </group>
                                     </group>

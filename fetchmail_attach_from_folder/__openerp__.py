@@ -34,6 +34,11 @@
         'wizard/attach_mail_manually.xml',
         'security/ir.model.access.csv',
     ],
-    'installable': False,
+    'external_dependencies': {
+        'python': [
+            'simplejson',
+        ],
+    },
+    'installable': True,
     'auto_install': False,
 }
