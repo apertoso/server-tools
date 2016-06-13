@@ -39,9 +39,7 @@
             <field name="model">ir.model</field>
             <field name="inherit_id" ref="base.view_model_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//page/field/form/separator[@string='Groups']"
-                       position="before">
-                    <separator string="Notes"/>
+                <xpath expr="//form/group/field[@name='ttype']" position="after">
                     <field name="notes"/>
                 </xpath>
             </field>
