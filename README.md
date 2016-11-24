@@ -17,11 +17,14 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[base_multi_image](base_multi_image/) | 10.0.1.0.0 | Allow multiple images for database objects
 [base_suspend_security](base_suspend_security/) | 10.0.1.0.0 | Suspend security checks for a call
 [base_technical_features](base_technical_features/) | 10.0.1.0.0 | Access to technical features without activating debug mode
+[base_user_gravatar](base_user_gravatar/) | 10.0.1.0.0 | Synchronize Gravatar Image
 [date_range](date_range/) | 10.0.1.0.0 | Manage all kind of date range
 [dbfilter_from_header](dbfilter_from_header/) | 10.0.1.0.0 | Filter databases with HTTP headers
 [disable_odoo_online](disable_odoo_online/) | 10.0.1.0.0 | Remove odoo.com Bindings
+[password_security](password_security/) | 10.0.1.0.0 | Allow admin to set password security requirements.
 
 Unported addons
 ---------------
@@ -42,10 +45,8 @@ addon | version | summary
 [base_debug4all](base_debug4all/) | 8.0.1.0.0 (unported) | Shows full debug options for all users
 [base_export_manager](base_export_manager/) | 9.0.1.1.0 (unported) | Manage model export profiles
 [base_external_dbsource](base_external_dbsource/) | 9.0.1.0.0 (unported) | External Database Sources
-[base_multi_image](base_multi_image/) | 9.0.1.1.0 (unported) | Allow multiple images for database objects
 [base_optional_quick_create](base_optional_quick_create/) | 9.0.1.0.0 (unported) | Avoid 'quick create' on m2o fields, on a 'by model' basis
 [base_report_auto_create_qweb](base_report_auto_create_qweb/) | 9.0.1.0.0 (unported) | Report qweb auto generation
-[base_user_gravatar](base_user_gravatar/) | 9.0.1.0.0 (unported) | Synchronize Gravatar Image
 [configuration_helper](configuration_helper/) | 9.0.1.0.0 (unported) | Configuration Helper
 [database_cleanup](database_cleanup/) | 9.0.1.0.0 (unported) | Database cleanup
 [dead_mans_switch_client](dead_mans_switch_client/) | 9.0.1.0.1 (unported) | Be notified when customers' odoo instances go down
@@ -61,7 +62,6 @@ addon | version | summary
 [menu_technical_info](menu_technical_info/) | 9.0.1.0.0 (unported) | Fast way to look up technical info about menu item.
 [mgmtsystem_kpi](mgmtsystem_kpi/) | 7.0.1.1.1 (unported) | Key Performance Indicator
 [module_prototyper](module_prototyper/) | 9.0.0.1.0 (unported) | Prototype your module.
-[password_security](password_security/) | 9.0.1.0.2 (unported) | Allow admin to set password security requirements.
 [qweb_usertime](qweb_usertime/) | 8.0.1.0.0 (unported) | Add user time rendering support in QWeb
 [res_config_settings_enterprise_remove](res_config_settings_enterprise_remove/) | 9.0.1.0.0 (unported) | Remove fields in all settings views marked as enterprise
 [scheduler_error_mailer](scheduler_error_mailer/) | 9.0.1.0.0 (unported) | Scheduler Error Mailer
@@ -74,7 +74,6 @@ addon | version | summary
 [users_ldap_groups](users_ldap_groups/) | 8.0.1.2.0 (unported) | Adds user accounts to groups based on rules defined by the administrator.
 [users_ldap_mail](users_ldap_mail/) | 9.0.1.0.0 (unported) | LDAP mapping for user name and e-mail
 [users_ldap_populate](users_ldap_populate/) | 9.0.1.0.0 (unported) | LDAP Populate
-[web_context_tunnel](web_context_tunnel/) | 8.0.2.0.0 (unported) | Web Context Tunnel
 
 [//]: # (end addons)
 
