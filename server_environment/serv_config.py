@@ -98,8 +98,11 @@ def _load_config():
         config_p.read(conf_files)
     except Exception as e:
         raise Exception('Cannot read config files "%s":  %s' % (conf_files, e))
+    config_p.read(system_base_config.rcfile)
+    config_p.remove_section('options')
 
     return config_p
+
 
 serv_config = _load_config()
 

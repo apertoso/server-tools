@@ -22,8 +22,8 @@
 
 {
     'name': 'Module Prototyper',
-    'version': '9.0.0.3.0',
-    'author': 'Savoir-faire Linux, Odoo Community Association (OCA)',
+    'version': '9.0.0.1.0',
+    'author': 'Savoir-faire Linux, Odoo Community Association (OCA), Sudokeys',
     'maintainer': 'Savoir-faire Linux',
     'website': 'http://www.savoirfairelinux.com',
     'license': 'AGPL-3',

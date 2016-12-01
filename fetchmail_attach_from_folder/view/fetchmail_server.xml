@@ -43,11 +43,6 @@
                                             <field name="flag_nonmatching" />
                                             <field name="match_first" />
                                             <field name="msg_state" />
-                                            <!--
-                                             TODO: fix fields_view_get on model
-                                             so we can put this back:
-                                              attrs="{'readonly':[('match_first','=',False)],'required':[('match_first','=',True)]}"
-                                            -->
                                             <field name="model_order" placeholder="name asc,type desc" />
                                             <field name="domain" placeholder="[('state', '=', 'open')]" />
                                         </group>
