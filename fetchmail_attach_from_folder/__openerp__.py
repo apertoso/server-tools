@@ -23,7 +23,7 @@
 {
     'name': 'Email gateway - folders',
     'summary': 'Attach mails in an IMAP folder to existing objects',
-    'version': '8.0.1.0.1',
+    'version': '9.0.1.0.1',
     'author': "Therp BV,Odoo Community Association (OCA)",
     'website': 'http://www.therp.nl',
     'license': 'AGPL-3',
@@ -34,10 +34,8 @@
         'wizard/attach_mail_manually.xml',
         'security/ir.model.access.csv',
     ],
-    'external_dependencies': {
-        'python': [
-            'simplejson',
-        ],
+    "external_dependencies": {
+        'python': ['simplejson']
     },
     'installable': True,
     'auto_install': False,
