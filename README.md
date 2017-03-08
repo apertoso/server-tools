@@ -63,7 +63,6 @@ addon | version | summary
 [base_optional_quick_create](base_optional_quick_create/) | 9.0.1.0.0 (unported) | Avoid 'quick create' on m2o fields, on a 'by model' basis
 [base_report_auto_create_qweb](base_report_auto_create_qweb/) | 9.0.1.0.0 (unported) | Report qweb auto generation
 [configuration_helper](configuration_helper/) | 9.0.1.0.0 (unported) | Configuration Helper
-[database_cleanup](database_cleanup/) | 9.0.1.0.0 (unported) | Database cleanup
 [dead_mans_switch_client](dead_mans_switch_client/) | 9.0.1.0.1 (unported) | Be notified when customers' odoo instances go down
 [email_template_template](email_template_template/) | 1.0 (unported) | Templates for email templates
 [fetchmail_attach_from_folder](fetchmail_attach_from_folder/) | 8.0.1.0.1 (unported) | Attach mails in an IMAP folder to existing objects
